@@ -7,9 +7,9 @@
 
         <nav>
             <ul class="nav-links">
-                <li><a class="nav-link" href="/index.html">Home</a></li>
+                <li><router-link to="/" class="nav-link">Home</router-link></li>
                 <li><a class="nav-link" href="#">Our Courses</a></li>
-                <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+                <li><router-link to="/price" class="nav-link" href="./pricing.html">Pricing</router-link></li>
                 <li><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </nav>
