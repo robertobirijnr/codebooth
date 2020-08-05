@@ -2,22 +2,17 @@
   <div>
     <div class="signin">
       <form>
-        <h2>Sign In</h2>
-        <input type="text" name="username" placeholder="Enter your email here" />
+        <h2>Register</h2>
+        <input type="text" name="username" placeholder="Enter your fullname here" />
+        <input type="email" name="email" placeholder="Enter your email here" />
         <input type="password" name="password" placeholder="Enter your password" />
         <br />
         <br />
-        <button>Submit</button>
-        <br />
-        <br />
-        <div id="container">
-          <a href="#" class="reset">Reset password</a>
-          <a href="#" class="forgotpassword">Forgot password</a>
-        </div>
+        <button>Register</button>
 
         <br />
-        <br />Don't have account ?
-        <router-link to="/register">Signup</router-link>
+        <br />Already have account ?
+        <router-link to="/login">Signin</router-link>
       </form>
     </div>
   </div>
