@@ -7,7 +7,7 @@
                     <p>Choose from 100,000 online video courses with new additions published every month</p>
                 </div>
                 <div class="cta">
-                    <button class="cta-select">Login</button>
+                    <button class="cta-select"><router-link  to="/login" >Login</router-link></button> 
                     <button class="cta-add">Register</button>
                 </div>
             </div>
@@ -66,6 +66,7 @@
     width: 150px;
     height: 50px;
     cursor: pointer;
+    text-decoration:none;
     font-size: 16px;
     border: none;
     margin: 30px 0px 0px 30px

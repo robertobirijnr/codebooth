@@ -62,7 +62,7 @@
     width: 220px;
     height: auto;
     margin: 10px;
-    background: gainsboro;
+    background: #fff;
     padding: 30px 20px 65px;
     border-radius: 5px;
     border: 1px solid #e6e6e6;

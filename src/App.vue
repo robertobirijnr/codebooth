@@ -25,5 +25,6 @@ import  navBar from '@/components/navBar.vue'
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: #dfded6
 }
 </style>
